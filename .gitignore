@@ -5,7 +5,11 @@
 
 
 # Ignora todos los archivos de texto
-*.txt
+.txt
 
 # Ignora todos los archivos gitignore
 .gitignore
+
+# Ignora todos los archivos isntalados por la terminal 
+node_modules
+
