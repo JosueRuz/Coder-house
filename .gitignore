@@ -13,3 +13,5 @@
 # Ignora todos los archivos isntalados por la terminal 
 node_modules
 
+# Ignora la vieja hoja de CSS
+style.css

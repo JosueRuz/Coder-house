@@ -1,0 +1,33 @@
+//comentarios sas
+/*comentarios css*/
+
+// import variables
+@import "utilidades/variables";
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* 1rem = 16px */
+html{
+    font-family: $font;
+}
+
+/* reset margin*/
+*{
+    margin: 0;
+    padding: O;
+}
+
+// imports de paginas y utilidades 
+@import "utilidades/HeaderFooter";
+@import "pages/index";
+@import "pages/nosotros";
+@import "pages/productos";
+@import "pages/catalogo";
+@import "pages/contacto";
+
+// import Media Queries
+@import "utilidades/media";
+
+
+

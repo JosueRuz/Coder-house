@@ -1,0 +1,83 @@
+/* Hero index */ 
+
+.hero{ 
+    margin-bottom: 150px;
+}
+
+/* Caracretisiticas index */
+.caracteristicas{
+
+    background-color: $naranja;
+    margin-bottom: 150px;
+    h4{
+
+        color: $blancotext;
+    }
+    p{
+
+        color: $blancotext;
+    }
+}
+
+/* Nosotros index */
+.Nosotros{
+
+    margin-bottom: 150px;
+    h2{
+
+        font-size: 65px;
+    }
+    p{
+
+        font-size: 18px;
+    }
+}
+
+/* Catálogo Index */
+.CatalogoIndex{
+
+    margin-bottom: 150px;
+    h2{
+
+        font-size: 42px;
+    }
+    p{
+
+        font-size: 18px;
+    }
+}
+
+/* Productos Index */
+.ProductosIndex{
+
+    margin-bottom: 150px;
+    h2{
+
+        font-size: 65px;
+    }
+    p{
+
+        font-size: 18px;
+    }
+}
+
+/* CTA Index */
+.CTA{
+
+    margin-bottom: 100px;
+    .CTAfondo{
+
+        background-color: $naranja;
+    }
+    h2{
+
+        color: $blancotext;
+        text-align: center;
+        font-size: 55px;
+    }
+    p{
+
+        color: $blancotext;
+        font-size: 18px;
+    }
+}

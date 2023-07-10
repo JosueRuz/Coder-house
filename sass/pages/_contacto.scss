@@ -1,0 +1,32 @@
+
+/* Contacto */
+
+/* Ficha Contacto */
+.FichaContacto{
+
+    background-color: $naranja;
+    width: 558px;
+    height: 765px;
+    border-radius: 30px;
+    h1{
+
+        color: $blancotext;
+    }
+    p{
+
+        color: $blancotext;
+    }
+}
+
+.formulario{
+
+    .BotonContacto{
+
+        background-color: $naranja;
+    }
+}
+
+.Contacto{
+    margin-bottom: 100px;
+}
+

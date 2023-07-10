@@ -1,0 +1,43 @@
+
+
+/* Header */
+
+header {
+
+    list-style: none;
+    font-family: $font;
+    li a{
+
+        text-decoration: none;
+        color: $negrotext;
+        font-size: 20px;
+    }
+
+}
+
+/* Footer */
+
+footer{
+
+    list-style: none;
+    font-family: $font;
+    ul a{
+
+        text-decoration: none;
+        color: $negrotext;
+        font-size: 20px;
+    }
+
+    p{
+
+        font-family: $font;
+    }
+
+    .copyright{
+
+        font-size: 12px;
+        font-family: $font;
+    }
+
+}
+
