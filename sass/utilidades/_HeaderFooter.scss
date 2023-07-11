@@ -2,7 +2,12 @@
 
 /* Header */
 
-header {
+.navbar {
+
+    ul{
+        list-style: none;
+        font-family: $font;
+    }
 
     list-style: none;
     font-family: $font;
@@ -17,11 +22,13 @@ header {
 
 /* Footer */
 
-footer{
+.footer{
 
-    list-style: none;
-    font-family: $font;
-    ul a{
+    ul{
+        list-style: none;
+        font-family: $font;
+    }
+    li a{
 
         text-decoration: none;
         color: $negrotext;

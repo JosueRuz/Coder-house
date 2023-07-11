@@ -1,0 +1,277 @@
+
+
+
+
+/* Media Celulares productos */
+@media (max-width: 767px) {
+
+
+/* Index */
+
+  /* Estilos para el encabezado */
+  header .navbar-brand img {
+    max-width: 100px;
+  }
+
+  /* Estilos para la sección Hero */
+  .hero .col-6 {
+    flex: 100%;
+    padding: 0;
+  }
+
+  .hero .col-6 img {
+    display: none;
+  }
+
+  /* Estilos para la sección Caracteristicas */
+  .caracteristicas .col-2 {
+    flex: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Estilos para la sección Nosotros */
+  .Nosotros .col-6 {
+    flex: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .Nosotros .col-6 img {
+    display: none;
+  }
+
+  /* Estilos para la sección Nuestro catálogo Home */
+  .CatalogoIndex .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+
+  /* Estilos para la sección Productos Home */
+  .ProductosIndex .col-11 {
+    flex: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .ProductosIndex .col-11 img {
+    width: 100%;
+  }
+
+  /* Estilos para la sección CTA Contacto */
+  .CTA .col-10 {
+    flex: 100%;
+    padding: 0;
+  }
+
+  .CTA .col-10 img {
+    display: none;
+  }
+
+  .CTA .col-10 .CTAfondo {
+    padding: 20px;
+    text-align: center;
+  }
+
+
+/* Nosotros */
+
+    /* Estilos para el encabezado */
+header .navbar-brand img {
+    max-width: 100px;
+  }
+
+  /* Estilos para la sección Hero Nosotros */
+  .Hero.Nosotros .col-6 {
+    flex: 100%;
+    padding: 0;
+  }
+
+  .Hero.Nosotros .col-6 img {
+    display: none;
+  }
+
+  /* Estilos para la sección ¿Quiénes somos? */
+  .QuienesSomos .col-6 {
+    flex: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .QuienesSomos .col-6 img {
+    display: none;
+  }
+
+  /* Estilos para la sección Nuestros valores texto */
+  .ValoresTexto .col-sm-2 {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para la sección Valores */
+  .Valores .col-2 {
+    flex: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Estilos para la sección CTA Contacto */
+  .CTA .col-10 {
+    flex: 100%;
+    padding: 0;
+  }
+
+  .CTA .col-10 img {
+    display: none;
+  }
+
+  .CTA .col-10 .CTAfondo {
+    padding: 20px;
+    text-align: center;
+  }
+
+
+/* Producto */
+
+    /* Estilos para el encabezado */
+    header .navbar-brand img {
+      max-width: 100px;
+    }
+  
+    /* Estilos para la sección HeroProductos */
+    .HeroProductos .col-6 {
+      flex: 100%;
+      padding: 0;
+    }
+  
+    .HeroProductos .col-6 img {
+      display: none;
+    }
+  
+    /* Estilos para la sección Preparados */
+    .Preparados .col-6 {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .Preparados .col-4 {
+      padding-left: 0;
+    }
+  
+    /* Estilos para la sección PolloFresco */
+    .PolloFresco .col-4,
+    .PolloFresco .col-4 img {
+      width: 100%;
+    }
+  
+    .PolloFresco .col-4,
+    .PolloFresco .col-4 p {
+      text-align: center;
+    }
+  
+    /* Estilos para la sección CTA */
+    .CTA .col-10 {
+      flex: 100%;
+      padding: 0;
+    }
+  
+    .CTA .col-10 img {
+      display: none;
+    }
+  
+    .CTA .col-10 .CTAfondo {
+      padding: 20px;
+      text-align: center;
+    }
+
+
+/* Catálogo */
+
+    /* Estilos para el encabezado */
+ header .navbar-brand img {
+    max-width: 100px;
+  }
+
+    /* Estilos para la sección BannerProductos */
+  .BannerProductos .card {
+    margin-bottom: 20px;
+  }
+
+  .BannerProductos .card .card-img-overlay {
+    padding: 20px;
+  }
+
+  .BannerProductos .card .card-title {
+    font-size: 24px;
+  }
+
+  .BannerProductos .card .card-text {
+    font-size: 16px;
+  }
+
+  .BannerProductos .card .card-text small {
+    font-size: 12px;
+  }
+
+  /* Estilos para la sección CardsSec */
+  .CardsSec .CardsGeneral .Cards1 {
+    padding: 20px;
+  }
+
+  .CardsSec .CardsGeneral .Cards1 .card {
+    margin-bottom: 20px;
+  }
+
+  .CardsSec .CardsGeneral .Cards1 .card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .CardsSec .CardsGeneral .Cards1 .card .card-body .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .CardsSec .CardsGeneral .Cards1 .card .card-body .card-text {
+    font-size: 14px;
+  }
+
+
+/* Contacto */
+
+    /* Estilos para el encabezado */
+header .navbar-brand img {
+    max-width: 100px;
+  }
+
+  /* Estilos para la sección Contacto y ficha de contacto */
+  .Contacto {
+    flex-wrap: wrap;
+  }
+
+  .Contacto .col-5 {
+    flex: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .Contacto .col-5 .pb-4 {
+    text-align: center;
+  }
+
+  .Contacto .col-5 .formulario {
+    padding: 20px;
+  }
+
+  .Contacto .col-5 .BotonContacto {
+    width: 100%;
+  }
+
+  .Contacto .col-5 .FichaContacto {
+    text-align: center;
+  }
+
+
+
+
+}
