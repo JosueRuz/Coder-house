@@ -14,8 +14,11 @@
       crossorigin="anonymous"
     />
 
+    <!-- AOS CDN SOURCES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- CSS -->
-    <!-- nuevo -->
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
 
@@ -57,7 +60,7 @@
       <!-- Sección Hero Nosotros -->
       <section class="Hero Nosotros d-flex">
         <div class="col-6 row align-items-center ps-5">
-          <div>
+          <div data-aos="fade-right">
             <h1 class="ps-5 col-10 pb-5">Nosotros</h1>
             <p class="col-9 ps-5">
               En Pollería el Güero Gourmet nos apasiona ofrecer a nuestros clientes
@@ -66,7 +69,7 @@
             </p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-6" data-aos="fade-left">
           <img src="../media/nosotros/Nosotros hero.png" alt="Imagen preparado gourmet" />
         </div>
       </section>
@@ -74,10 +77,10 @@
 
     <!-- Sección ¿Quiénes somos? -->
     <section class="QuienesSomos d-flex row justify-content-center">
-      <div class="col-6 ps-5">
+      <div class="col-6 ps-5" data-aos="fade-right">
         <img src="../media/nosotros/quienes somos.png" alt="Local del neogcio" />
       </div>
-      <div class="col-4 row align-items-center">
+      <div class="col-4 row align-items-center" data-aos="fade-left">
         <div>
           <h1 class="pb-5">¿Quiénes somos?</h1>
           <p>
@@ -96,7 +99,7 @@
     </section>
 
     <!-- Sección Nuestros valores texto -->
-    <section class="ValoresTexto d-flex">
+    <section class="ValoresTexto d-flex" data-aos="fade-right">
       <div class="col-sm-2 col-md-3 text-end pe-5 ps-5">
         <h1>Nuestros valores</h1>
       </div>
@@ -135,7 +138,7 @@
     </section>
 
     <!-- Sección CTA Conacto -->
-    <section class="CTA row justify-content-md-center">
+    <section class="CTA row justify-content-md-center" data-aos="fade-down">
       <div class="d-flex col-10">
         <div>
           <img
@@ -205,5 +208,10 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

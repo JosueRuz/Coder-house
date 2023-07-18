@@ -14,8 +14,11 @@
       crossorigin="anonymous"
     />
 
+    <!-- AOS CDN SOURCES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- CSS -->
-    <!-- nuevo -->
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
 
@@ -56,7 +59,7 @@
     <main>
       <!-- Baner catálogo -->
       <section class="BannerProductos pt-4">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-down">
           <div class="card text-bg-dark col-10 col align-self-center">
             <img src="../media/catalogo/Banner catalogo.png" class="card-img" alt="..." />
             <div class="card-img-overlay">
@@ -79,7 +82,7 @@
         <!-- Contenedor Fila 1-->
         <div class="Cards1 col-10 col align-self-center">
           <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <img
                   src="../media/catalogo/producto1.png"
@@ -95,7 +98,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <img
                   src="../media/catalogo/producto2.png"
@@ -111,7 +114,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <img
                   src="../media/catalogo/producto3.png"
@@ -127,7 +130,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <img
                   src="../media/catalogo/producto4.png"
@@ -197,5 +200,10 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

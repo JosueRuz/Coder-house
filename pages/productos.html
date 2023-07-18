@@ -14,8 +14,11 @@
       crossorigin="anonymous"
     />
 
+    <!-- AOS CDN SOURCES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- CSS -->
-    <!-- nuevo -->
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
 
@@ -57,7 +60,7 @@
       <!-- Sección Hero Productos -->
       <section class="HeroProductos d-flex">
         <div class="col-6 row align-items-center ps-5">
-          <div>
+          <div data-aos="fade-right">
             <h1 class="ps-5 col-10 pb-5">Productos</h1>
             <p class="col-9 ps-5">
               Utilizamos productos de alta calidad en los que reinan el sabor tradicional
@@ -66,7 +69,7 @@
             </p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-6" data-aos="fade-left">
           <img
             src="../media/productos/Hero productos.png"
             alt="imagen de brocheta de pollo"
@@ -77,11 +80,11 @@
 
     <!-- Sección Preparados Gourmet -->
     <section class="Preparados d-flex row justify-content-center">
-      <div class="col-6 pe-5">
+      <div class="col-6 pe-5" data-aos="fade-right">
         <img src="../media/productos/Preparados gourmet.png" alt="" />
       </div>
       <div class="col-4 row align-items-center">
-        <div>
+        <div data-aos="fade-left">
           <h1 class="pb-5">Preparados Gourmet</h1>
           <p>
             Elaborados con ingredientes naturales y preparados al momento. Preparamos
@@ -95,7 +98,7 @@
     <!-- Sección Pollo Fresco -->
     <section class="PolloFresco d-flex row justify-content-center">
       <div class="col-4 row align-items-center pe-5">
-        <div>
+        <div data-aos="fade-right">
           <h1 class="pb-5">Pollo fresco</h1>
           <p>
             Nuestro pollo es fresco, nunca congelado y nos enorgullecemos del valor y la
@@ -105,14 +108,14 @@
           </p>
         </div>
       </div>
-      <div class="col-4 ps-5 align-self-end">
+      <div class="col-4 ps-5 align-self-end" data-aos="fade-left">
         <img src="../media/productos/Pollo Fresco.png" alt="" />
       </div>
     </section>
 
     <!-- CTA Productos -->
     <section class="CTA row justify-content-md-center">
-      <div class="d-flex col-10">
+      <div class="d-flex col-10" data-aos="fade-down">
         <div>
           <img src="../media/productos/CTA Home.png" alt="Imagen Carne de pollo fresca" />
         </div>
@@ -178,5 +181,10 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

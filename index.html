@@ -14,8 +14,11 @@
       crossorigin="anonymous"
     />
 
+    <!-- AOS CDN SOURCES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- CSS-->
-    <!-- nuevo -->
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
 
@@ -58,11 +61,11 @@
       <!-- Sección Hero -->
       <section class="hero d-flex">
         <div class="col-6 row align-items-center ps-5">
-          <h1 class="p-5 col-10">
+          <h1 class="p-5 col-10" data-aos="fade-right">
             Somos el mejor aliado <strong>tu hogar o negocio</strong>
           </h1>
         </div>
-        <div class="col-6">
+        <div class="col-6" data-aos="fade-left">
           <img src="media/home/Imagen header.png" alt="Imagen de productos gourmet" />
         </div>
       </section>
@@ -97,13 +100,13 @@
 
       <!-- Sección Nosotros Home -->
       <section class="Nosotros d-flex row justify-content-center">
-        <div class="col-6 ps-5">
+        <div class="col-6 ps-5" data-aos="fade-right">
           <img
             src="media/home/Nosotros home.png"
             alt="Imagen Persona preparando comida"
           />
         </div>
-        <div class="col-4 row align-items-center">
+        <div class="col-4 row align-items-center" data-aos="fade-left">
           <div>
             <h2 class="pb-5">Nosotros</h2>
             <p class="pb-3">
@@ -118,7 +121,11 @@
 
       <!-- Sección Nuestro catálogo Home -->
       <section class="CatalogoIndex row justify-content-md-center">
-        <div id="carouselExampleCaptions" class="carousel slide w-75 rounded-5">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide w-75 rounded-5"
+          data-aos="fade-down"
+        >
           <div class="carousel-indicators">
             <button
               type="button"
@@ -200,7 +207,7 @@
       <!-- Sección Productos Home -->
       <section class="ProductosIndex justify-content-center">
         <div class="row justify-content-end">
-          <di class="col-11 pb-5">
+          <di class="col-11 pb-5" data-aos="fade-left">
             <h2>Productos</h2>
             <p>
               <strong>Preparaciones gourmet</strong> que se adaptan a cualquier ocasión. Y
@@ -220,7 +227,7 @@
 
       <!-- Sección CTA Conacto -->
       <section class="CTA row justify-content-md-center">
-        <div class="d-flex col-10">
+        <div class="d-flex col-10" data-aos="fade-down">
           <div>
             <img src="media/home/CTA Home.png" alt="Imagen Carne de pollo fresca" />
           </div>
@@ -287,5 +294,10 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
