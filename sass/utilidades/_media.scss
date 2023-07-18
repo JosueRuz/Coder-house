@@ -8,45 +8,67 @@
 
 /* Index */
 
-  /* Estilos para el encabezado */
-  header .navbar-brand img {
-    max-width: 100px;
-  }
+  .hero{
 
-  /* Estilos para la sección Hero */
-  .hero .col-6 {
-    flex: 100%;
-    padding: 0;
-  }
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
 
-  .hero .col-6 img {
-    display: none;
+    img{
+
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1{
+
+      font-size: 28px;
+      padding: 20px;
+    }
   }
 
   /* Estilos para la sección Caracteristicas */
   .caracteristicas .col-2 {
-    flex: 50%;
-    padding: 10px;
-    text-align: center;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 
   /* Estilos para la sección Nosotros */
-  .Nosotros .col-6 {
-    flex: 100%;
-    padding: 0;
-    margin-bottom: 20px;
-  }
+  .Nosotros {
 
-  .Nosotros .col-6 img {
-    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .NosotrosTexto{
+
+      align-items: center;
+      text-align: center;
+    }
+
+    img{
+
+      max-width: 100%;
+      height: auto;
+    }
   }
 
   /* Estilos para la sección Nuestro catálogo Home */
-  .CatalogoIndex .carousel-inner .carousel-item img {
-    width: 100%;
+  .CatalogoIndex{
+
+      padding-left: 100px;
+      max-width: auto;
+      height: auto;
   }
 
   /* Estilos para la sección Productos Home */
+  .ProductosText{
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .ProductosIndex .col-11 {
     flex: 100%;
     padding: 0;
@@ -58,54 +80,85 @@
   }
 
   /* Estilos para la sección CTA Contacto */
-  .CTA .col-10 {
-    flex: 100%;
-    padding: 0;
-  }
+  .CTA {
 
-  .CTA .col-10 img {
-    display: none;
-  }
+    
+    .CtaContenedor {
+      flex-direction: column;
+      width: fit-content;
+      text-align: center;
+    }
+    .text-start{
 
-  .CTA .col-10 .CTAfondo {
-    padding: 20px;
-    text-align: center;
+      align-content: center;
+    }
+
+    .CTAfondo{
+      
+      width: auto;
+      flex-direction:column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .CtaImagen{
+
+      width: 50px;
+      margin-right: 500px;
+      align-items: center;
+      text-align: center;
+    }
   }
 
 
 /* Nosotros */
 
-    /* Estilos para el encabezado */
-header .navbar-brand img {
-    max-width: 100px;
-  }
-
   /* Estilos para la sección Hero Nosotros */
-  .Hero.Nosotros .col-6 {
-    flex: 100%;
-    padding: 0;
-  }
+  .HeroNosotros{
 
-  .Hero.Nosotros .col-6 img {
-    display: none;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    img{
+
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1{
+
+      font-size: 28px;
+      padding: 20px;
+    }
   }
 
   /* Estilos para la sección ¿Quiénes somos? */
-  .QuienesSomos .col-6 {
-    flex: 100%;
-    padding: 0;
-    margin-bottom: 20px;
-  }
+  .QuienesSomos{
 
-  .QuienesSomos .col-6 img {
-    display: none;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    img{
+
+      max-width: 100%;
+      height: auto;
+    }
+    h1{
+
+      font-size: 28px;
+      padding: 20px;
+    }
   }
 
   /* Estilos para la sección Nuestros valores texto */
-  .ValoresTexto .col-sm-2 {
+  .ValoresTexto{
+
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 0;
-    margin-bottom: 20px;
+    
   }
 
   /* Estilos para la sección Valores */
@@ -115,47 +168,44 @@ header .navbar-brand img {
     text-align: center;
   }
 
-  /* Estilos para la sección CTA Contacto */
-  .CTA .col-10 {
-    flex: 100%;
-    padding: 0;
-  }
-
-  .CTA .col-10 img {
-    display: none;
-  }
-
-  .CTA .col-10 .CTAfondo {
-    padding: 20px;
-    text-align: center;
-  }
-
 
 /* Producto */
-
-    /* Estilos para el encabezado */
-    header .navbar-brand img {
-      max-width: 100px;
-    }
   
     /* Estilos para la sección HeroProductos */
-    .HeroProductos .col-6 {
-      flex: 100%;
-      padding: 0;
+    .HeroProductos{
+
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+
+      img{
+
+        max-width: 100%;
+        height: auto;
+      }
+      h1{
+
+        font-size: 28px;
+        padding: 20px;
+      }
     }
-  
-    .HeroProductos .col-6 img {
-      display: none;
-    }
-  
     /* Estilos para la sección Preparados */
-    .Preparados .col-6 {
-      padding-right: 0;
-      margin-bottom: 20px;
-    }
-  
-    .Preparados .col-4 {
-      padding-left: 0;
+    .Preparados{
+
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+
+      img{
+
+        max-width: 100%;
+        height: auto;
+      }
+      h1{
+
+        font-size: 28px;
+        padding: 20px;
+      }
     }
   
     /* Estilos para la sección PolloFresco */
@@ -168,27 +218,12 @@ header .navbar-brand img {
     .PolloFresco .col-4 p {
       text-align: center;
     }
-  
-    /* Estilos para la sección CTA */
-    .CTA .col-10 {
-      flex: 100%;
-      padding: 0;
-    }
-  
-    .CTA .col-10 img {
-      display: none;
-    }
-  
-    .CTA .col-10 .CTAfondo {
-      padding: 20px;
-      text-align: center;
-    }
 
 
 /* Catálogo */
 
     /* Estilos para el encabezado */
- header .navbar-brand img {
+  header .navbar-brand img {
     max-width: 100px;
   }
 
@@ -240,7 +275,7 @@ header .navbar-brand img {
 /* Contacto */
 
     /* Estilos para el encabezado */
-header .navbar-brand img {
+  header .navbar-brand img {
     max-width: 100px;
   }
 
@@ -267,10 +302,19 @@ header .navbar-brand img {
     width: 100%;
   }
 
-  .Contacto .col-5 .FichaContacto {
-    text-align: center;
-  }
+  .FichaContacto{
 
+    padding: 20px;
+    width: 500px;
+
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+
+  }
 
 
 
