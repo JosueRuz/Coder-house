@@ -189,9 +189,215 @@ html {
   margin-bottom: 100px;
 }
 
+/* Estilos para tablet */
+@media (max-width: 991px) {
+  /* index tablet*/
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  /* Características tablet index */
+  .caracteristicas p {
+    font-size: 12px;
+  }
+  .caracteristicas h4 {
+    font-size: 14px;
+  }
+  .caracteristicas img {
+    width: 60px;
+    height: auto;
+  }
+  /* Nosotros tablet index */
+  .Nosotros {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Nosotros img {
+    max-width: 100%;
+    height: auto;
+  }
+  .Nosotros .NosotrosTexto {
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+  }
+  .Nosotros .NosotrosTexto h2 {
+    font-size: 24px;
+  }
+  .Nosotros .NosotrosTexto p {
+    font-size: 14px;
+  }
+  /* catálogo tablet index */
+  .CatalogoIndex {
+    padding-left: 100px;
+    max-width: auto;
+    height: auto;
+  }
+  .CatalogoIndex h2 {
+    font-size: 24px;
+  }
+  .CatalogoIndex p {
+    font-size: 12px;
+  }
+  .CatalogoIndex img {
+    max-height: 200px;
+  }
+  /* productos tablet index */
+  .ProductosIndex .ProductosText h {
+    font-size: 24px;
+  }
+  .ProductosIndex .ProductosText p {
+    font-size: 12px;
+  }
+  /* CTA tablet index */
+  .CTA img {
+    height: 350px;
+  }
+  .CTA .CTAfondo h2 {
+    font-size: 24px;
+  }
+  .CTA .CTAfondo p {
+    font-size: 12px;
+  }
+  /* nosotros tablet*/
+  /* Hero Nosotros tablet */
+  .HeroNosotros {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .HeroNosotros img {
+    max-width: 100%;
+    height: auto;
+  }
+  .HeroNosotros h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+  .HeroNosotros p {
+    font-size: 14px;
+  }
+  /* Quienes somos tablet */
+  .QuienesSomos {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .QuienesSomos img {
+    max-width: 100%;
+    height: auto;
+  }
+  .QuienesSomos h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+  .QuienesSomos p {
+    font-size: 13px;
+  }
+  /* Nuestros valores texto tablet */
+  .ValoresTexto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+  }
+  /* Estilos para la sección Valores */
+  .Valores .col-2 p {
+    font-size: 13px;
+  }
+  .Valores .col-2 h4 {
+    font-size: 20px;
+  }
+  /* Productos tablet */
+  /* Hero Productos tablet */
+  .HeroProductos {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .HeroProductos img {
+    max-width: 100%;
+    height: auto;
+  }
+  .HeroProductos h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+  /* Preparados tablet */
+  .Preparados {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .Preparados img {
+    max-width: 100%;
+    height: auto;
+  }
+  .Preparados h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+  /* PolloFresco tablet */
+  .PolloFresco {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .PolloFresco img {
+    width: 350px;
+    height: auto;
+  }
+  .PolloFresco h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+  /* Contacto tablet */
+  /* Estilos para el encabezado */
+  header .navbar-brand img {
+    max-width: 100px;
+  }
+  /* Estilos para la sección Contacto y ficha de contacto */
+  .Contacto {
+    flex-wrap: wrap;
+  }
+  .Contacto .col-5 {
+    flex: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .Contacto .col-5 .pb-4 {
+    text-align: center;
+  }
+  .Contacto .col-5 .formulario {
+    padding: 20px;
+  }
+  .Contacto .col-5 .BotonContacto {
+    width: 100%;
+  }
+  .FichaContacto {
+    height: 500px;
+    padding: 20px;
+    width: 500px;
+  }
+  .FichaContacto h1 {
+    font-size: 24px;
+  }
+  .FichaContacto p {
+    font-size: 14px;
+  }
+}
 /* Media Celulares productos */
 @media (max-width: 767px) {
-  /* Index */
+  /* Index celular */
   .hero {
     flex-direction: row;
     align-items: center;
@@ -217,6 +423,7 @@ html {
     text-align: center;
   }
   .Nosotros .NosotrosTexto {
+    padding-top: 50px;
     align-items: center;
     text-align: center;
   }
