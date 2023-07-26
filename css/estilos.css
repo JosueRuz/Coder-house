@@ -1,7 +1,17 @@
 @charset "UTF-8";
 /*comentarios css*/
-/* Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.btn-primary {
+  background-color: #FF8101; /* Cambia el color de fondo del botón */
+  color: white; /* Cambia el color del texto del botón */
+  outline: none;
+}
+
+.btn-primary:hover {
+  background-color: #e64d00; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+/* Font */
 /* 1rem = 16px */
 html {
   font-family: "Poppins", sans-serif;

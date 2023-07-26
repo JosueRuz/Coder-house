@@ -9,3 +9,14 @@ $blancotext: #FFFFFF;
 //tipografía 
 $font: 'Poppins', sans-serif;
 
+// Botones
+.btn-primary{
+    background-color: $naranja; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+    outline: none;
+}
+
+.btn-primary:hover{
+    background-color: #e64d00; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
